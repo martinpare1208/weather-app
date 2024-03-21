@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h3>Weather App</h3>
+        <div>
+        <input type="Text", placeholder="Enter city name" id="text"><br>
+        <button id="submit">Get Weather</button>
+    </div>
+    </div>
+    <section id="output-container">
+        <div id="heading">
+            <h3>Weather App</h3>
+        </div>
+        <div id="output">
+            <img src="images/day-cloudy-icon.png">
+            <span id="temperature">70&deg;F</span>
+            <span id="location">Los Angeles</span>
+        </div>
+        <div id="context-container">
+        <div id="feels-container">
+            <div>
+            <span>Feels Like</span>
+            <span id="feels">70&deg;F</span>
+            </div>
+        </div>
+            <div id="humidity-container">
+            <span id="humidity">84%</span>
+            <span>Humidity</span>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
